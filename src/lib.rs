@@ -25,8 +25,8 @@ mod tests {
     #[test]
     fn test_find_median_sorted_arrays() {
         let vec1 = vec![1, 3];
-        let vec2 = vec![2];
-        assert_eq!(find_median_of_sorted_arrays(vec1, vec2), MedianType::Int(2))
+        let vec2 = vec![2, 4];
+        assert_eq!(find_median_of_sorted_arrays(vec1, vec2), MedianType::Float(2.5))
     }
 
     #[test]
